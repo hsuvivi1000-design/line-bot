@@ -1,0 +1,23 @@
+# 環境變數（機密，不可 commit）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# 系統
+.DS_Store
+Thumbs.db
+
+# 測試 / 覆蓋率
+.pytest_cache/
+htmlcov/
+.coverage
